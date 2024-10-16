@@ -1,29 +1,0 @@
-Map:   0%|          | 0/22207 [00:00<?, ? examples/s]Map:   2%|▏         | 491/22207 [00:00<00:04, 4717.63 examples/s]Map:   5%|▍         | 1033/22207 [00:00<00:04, 5120.32 examples/s]Map:   7%|▋         | 1563/22207 [00:00<00:03, 5199.49 examples/s]Map:  10%|▉         | 2158/22207 [00:00<00:03, 5489.57 examples/s]Map:  13%|█▎        | 2898/22207 [00:00<00:03, 6166.36 examples/s]Map:  16%|█▌        | 3601/22207 [00:00<00:02, 6451.75 examples/s]Map:  19%|█▉        | 4289/22207 [00:00<00:02, 6589.08 examples/s]Map:  23%|██▎       | 4999/22207 [00:00<00:02, 6749.60 examples/s]Map:  26%|██▌       | 5714/22207 [00:00<00:02, 6869.31 examples/s]Map:  30%|███       | 6744/22207 [00:01<00:02, 6864.90 examples/s]Map:  34%|███▎      | 7460/22207 [00:01<00:02, 6945.26 examples/s]Map:  38%|███▊      | 8510/22207 [00:01<00:01, 6961.83 examples/s]Map:  43%|████▎     | 9559/22207 [00:01<00:01, 6961.18 examples/s]Map:  46%|████▋     | 10275/22207 [00:01<00:01, 7002.27 examples/s]Map:  49%|████▉     | 10980/22207 [00:01<00:01, 7013.60 examples/s]Map:  54%|█████▍    | 12000/22207 [00:01<00:01, 6905.58 examples/s]Map:  57%|█████▋    | 12711/22207 [00:01<00:01, 6954.82 examples/s]Map:  60%|██████    | 13429/22207 [00:02<00:01, 7008.30 examples/s]Map:  65%|██████▌   | 14480/22207 [00:02<00:01, 7006.35 examples/s]Map:  70%|██████▉   | 15540/22207 [00:02<00:00, 7024.65 examples/s]Map:  75%|███████▍  | 16599/22207 [00:02<00:00, 7033.93 examples/s]Map:  79%|███████▉  | 17623/22207 [00:02<00:00, 6960.62 examples/s]Map:  83%|████████▎ | 18330/22207 [00:02<00:00, 6982.57 examples/s]Map:  87%|████████▋ | 19385/22207 [00:02<00:00, 6994.04 examples/s]Map:  92%|█████████▏| 20438/22207 [00:03<00:00, 6998.88 examples/s]Map:  96%|█████████▋| 21406/22207 [00:03<00:00, 6824.23 examples/s]Map: 100%|█████████▉| 22121/22207 [00:03<00:00, 6897.01 examples/s]Map: 100%|██████████| 22207/22207 [00:03<00:00, 5600.97 examples/s]
-Map:   0%|          | 0/7338 [00:00<?, ? examples/s]Map:   2%|▏         | 143/7338 [00:00<00:07, 925.73 examples/s]Map:   6%|▋         | 473/7338 [00:00<00:03, 2064.56 examples/s]Map:  15%|█▌        | 1122/7338 [00:00<00:01, 3863.45 examples/s]Map:  25%|██▍       | 1823/7338 [00:00<00:01, 5014.41 examples/s]Map:  35%|███▍      | 2533/7338 [00:00<00:00, 5730.78 examples/s]Map:  44%|████▍     | 3243/7338 [00:00<00:00, 6178.22 examples/s]Map:  54%|█████▍    | 3986/7338 [00:00<00:00, 6575.35 examples/s]Map:  66%|██████▌   | 4814/7338 [00:00<00:00, 6143.85 examples/s]Map:  75%|███████▌  | 5505/7338 [00:01<00:00, 6352.92 examples/s]Map:  85%|████████▍ | 6211/7338 [00:01<00:00, 6552.89 examples/s]Map:  95%|█████████▍| 6938/7338 [00:01<00:00, 6758.09 examples/s]Map: 100%|██████████| 7338/7338 [00:01<00:00, 5112.25 examples/s]
-Unique Labels: [0, 1, 2, 3, 4, 5]
-Map:   0%|          | 0/22207 [00:00<?, ? examples/s]Map:   9%|▉         | 2000/22207 [00:00<00:01, 17648.75 examples/s]Map:  21%|██        | 4708/22207 [00:00<00:00, 22905.49 examples/s]Map:  36%|███▌      | 8000/22207 [00:00<00:00, 21061.94 examples/s]Map:  50%|████▉     | 11000/22207 [00:00<00:00, 19249.60 examples/s]Map:  59%|█████▊    | 13000/22207 [00:00<00:00, 18436.67 examples/s]Map:  68%|██████▊   | 15000/22207 [00:00<00:00, 18168.30 examples/s]Map:  80%|███████▉  | 17664/22207 [00:00<00:00, 20461.76 examples/s]Map:  90%|█████████ | 20000/22207 [00:01<00:00, 19793.74 examples/s]Map: 100%|██████████| 22207/22207 [00:01<00:00, 9608.48 examples/s] Map: 100%|██████████| 22207/22207 [00:01<00:00, 11994.50 examples/s]
-Map:   0%|          | 0/7338 [00:00<?, ? examples/s]Map:  32%|███▏      | 2330/7338 [00:00<00:00, 23163.28 examples/s]Map:  72%|███████▏  | 5279/7338 [00:00<00:00, 20629.24 examples/s]Map: 100%|██████████| 7338/7338 [00:00<00:00, 14300.91 examples/s]
-Label Distribution in Training Set: Counter({0: 12052, 1: 10155})
-Traceback (most recent call last):
-  File "/home-mscluster/mdawood/miniconda3/envs/atari/lib/python3.10/site-packages/transformers/utils/hub.py", line 402, in cached_file
-    resolved_file = hf_hub_download(
-  File "/home-mscluster/mdawood/miniconda3/envs/atari/lib/python3.10/site-packages/huggingface_hub/utils/_deprecation.py", line 101, in inner_f
-    return f(*args, **kwargs)
-  File "/home-mscluster/mdawood/miniconda3/envs/atari/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 106, in _inner_fn
-    validate_repo_id(arg_value)
-  File "/home-mscluster/mdawood/miniconda3/envs/atari/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 154, in validate_repo_id
-    raise HFValidationError(
-huggingface_hub.errors.HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': 'datasets/mdawood/swahili-xlmr-finetuned-1mil'. Use `repo_type` argument if needed.
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "/home-mscluster/mdawood/nlp/nlpClusterSecond.py", line 73, in <module>
-    tokenizer = AutoTokenizer.from_pretrained('datasets/mdawood/swahili-xlmr-finetuned-1mil')
-  File "/home-mscluster/mdawood/miniconda3/envs/atari/lib/python3.10/site-packages/transformers/models/auto/tokenization_auto.py", line 834, in from_pretrained
-    tokenizer_config = get_tokenizer_config(pretrained_model_name_or_path, **kwargs)
-  File "/home-mscluster/mdawood/miniconda3/envs/atari/lib/python3.10/site-packages/transformers/models/auto/tokenization_auto.py", line 666, in get_tokenizer_config
-    resolved_config_file = cached_file(
-  File "/home-mscluster/mdawood/miniconda3/envs/atari/lib/python3.10/site-packages/transformers/utils/hub.py", line 466, in cached_file
-    raise EnvironmentError(
-OSError: Incorrect path_or_model_id: 'datasets/mdawood/swahili-xlmr-finetuned-1mil'. Please provide either the path to a local folder or the repo_id of a model on the Hub.

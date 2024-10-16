@@ -70,7 +70,7 @@ dataset = DatasetDict({
 from transformers import AutoTokenizer
 
 # Load the tokenizer from the first fine-tuning step
-tokenizer = AutoTokenizer.from_pretrained('/datasets/mdawood/swahili-xlmr-finetuned-1mil')
+tokenizer = AutoTokenizer.from_pretrained('/datasets/mdawood/swahili-xlmr-finetuned-2-5mil')
 
 def tokenize_function(batch):
     return tokenizer(batch['text'], truncation=True, padding='max_length', max_length=128)
@@ -88,7 +88,7 @@ from transformers import AutoModelForSequenceClassification
 
 # Load the model from the first fine-tuning step
 model = AutoModelForSequenceClassification.from_pretrained(
-    '/datasets/mdawood/swahili-xlmr-finetuned-1mil',
+    '/datasets/mdawood/swahili-xlmr-finetuned-2-5mil',
     num_labels=2,
 )
 
@@ -97,7 +97,7 @@ model = AutoModelForSequenceClassification.from_pretrained(
 from transformers import TrainingArguments
 
 training_args = TrainingArguments(
-    output_dir='/datasets/mdawood/results_binary_classification-1mil',
+    output_dir='/datasets/mdawood/results_binary_classification-2-5mil',
     evaluation_strategy='epoch',
     save_strategy='epoch',
     learning_rate=2e-5,
@@ -105,7 +105,7 @@ training_args = TrainingArguments(
     per_device_eval_batch_size=8,
     num_train_epochs=3,             # Adjust based on your needs
     weight_decay=0.01,
-    logging_dir='/datasets/mdawood/logs_binary_classification-1mil',
+    logging_dir='/datasets/mdawood/logs_binary_classification-2-5mil',
     logging_steps=100,
     load_best_model_at_end=True,
     metric_for_best_model='f1',
@@ -149,10 +149,10 @@ trainer.train()
 
 # %%
 # Save the fine-tuned model
-trainer.save_model('/datasets/mdawood/swahili-xlmr-binary-classification-1mil')
+trainer.save_model('/datasets/mdawood/swahili-xlmr-binary-classification-2-5mil')
 
 # Save the tokenizer
-tokenizer.save_pretrained('/datasets/mdawood/swahili-xlmr-binary-classification-1mil')
+tokenizer.save_pretrained('/datasets/mdawood/swahili-xlmr-binary-classification-2-5mil')
 
 # %%
 test_results = trainer.evaluate(eval_dataset=tokenized_datasets['test'])
